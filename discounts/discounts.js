@@ -9,6 +9,10 @@ function calculateDiscount(){
     const precio = inputPrice.value;
     const cupon = inputCupon.value;
     
+    if(!precio || !cupon){
+        alert('¡Llena el formulario!');
+        return;
+    }
 
     if(cupon=='SORPRESA15'){
         const cupon = 50;
