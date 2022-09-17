@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./math.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Nabla&display=swap" rel="stylesheet">
+    <title>Mini tienda</title>
+</head>
+<body>
+    <header>
+        <h3>Tienda de descuentos sorpresa</h3>
+    </header>
+    <main>
+        <section class="main-discount-container">
+            <h1 class="title">Mini tienda con descuentos especiales</h1>
+            <p class="">Esta es una tienda donde tu tienes un descuento en todas tus compras de entre 10% y 60%
+            </p>
+            <button class="boton-descuento">Obtener descuento</button>
+
+            <div class="descuento-obtenido">
+                <h4>Felicidades obtuviste un descuento de:  <span class="descuento-aplicado"></span></h4>
+                
+                <button class="discount-button-gained">Aplicar</button>
+            </div>
+        </section>
+        <section class="main-store-container">
+            <div class="products-container">
+                <h5>Gaming mouse Razer Essential</h5>
+                <img class="product-image" src="https://www.tradeinn.com/f/13806/138068783/razer-deathadder-pro-v2-wireless-gaming-mouse.jpg" alt="Foto de un mouse gamer">
+                <p>Precio sin descuento de: $<span class="precio-sin-descuento">700</span></p>
+                
+                <p class="p-descuento">Precio con descuento de: $<span class="precio-con-descuento"></span></p>
+                
+                
+            </div>
+        </section>
+    </main>
+    <script src="./porcentajes.js"></script>
+</body>
+</html>
